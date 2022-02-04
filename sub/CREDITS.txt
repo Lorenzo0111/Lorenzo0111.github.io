@@ -1,0 +1,1 @@
+This is a redesign of the https://github.com/Nouridio/Discord-bot-website-template template.
