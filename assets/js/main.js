@@ -5,10 +5,9 @@
         let name = resource.name;
         const description = resource.tag;
         const downloads = format(resource.downloads);
-        const icon = resource.icon.url;
         const id = resource.id;
 
-        if (!icon) continue;
+        if (!resource.icon.url) continue;
 
         if (name.length > 25) {
             name = name.substring(0, 25) + "...";
@@ -17,7 +16,7 @@
         const html = `
         <div class="card" href="https://spigotmc.org/resources/${id}">
             <p class="downloads">${downloads} <i class="fa-solid fa-download"></i> </p>
-            <img src="https://spigotmc.org/${icon}" alt="${name}" draggable="false">
+            <img src="https://icons.lorenzo0111.me/${id}.png" alt="${name}" draggable="false">
             <h2>${name}</h2>
             <p>${description}</p>
         </div>
