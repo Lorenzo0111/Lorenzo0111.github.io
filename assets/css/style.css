@@ -83,6 +83,7 @@ a, a:visited, .colored {
     height: 350px;
     border-radius: 7px;
     overflow-x: auto;
+    overflow-y: hidden;
     display: flex;
 }
 
@@ -97,7 +98,7 @@ a, a:visited, .colored {
     border-radius: 7px;
     -webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.49); 
     box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.49);
-    margin-top: 20px;
+    margin-top: 16px;
     margin-right: 20px;
     transition: all .3s cubic-bezier(.175,.885,.32,1.275);
     padding: 0 5px;
