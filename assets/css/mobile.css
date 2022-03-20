@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+
+    body {
+        font-family: 'Metrophobic', sans-serif;
+        color: white;
+        background: #222222;
+    }
+
+    .scroll {
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 0px;
+    }
+
+    .blob {
+        display: none;
+    }
+
+}

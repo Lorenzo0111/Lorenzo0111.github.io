@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1440 320"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="wave.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.1745829"
+     inkscape:cx="606.59829"
+     inkscape:cy="133.23878"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     fill="#fcba03"
+     fill-opacity="1"
+     d="m 1440,224 -48,-10.7 C 1344,203 1248,181 1152,181.3 1056,181 960,203 864,224 768,245 672,267 575.99999,277.3 479.99999,288 384,288 288,261.3 192,235 95.999997,181 47.999997,154.7 L -3.3672079e-6,128 V 0 H 47.999997 C 95.999997,0 192,0 288,0 384,0 479.99999,0 575.99999,0 672,0 768,0 864,0 c 96,0 192,0 288,0 96,0 192,0 240,0 h 48 z"
+     id="path2" />
+</svg>

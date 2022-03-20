@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+/*******************
+ GENERAL ATTRIBUTES
+*******************/
+body {
+    font-family: 'Metrophobic', sans-serif;
+    color: white;
+    background-color: #222222;
+}
+
+footer {
+    margin-bottom: -20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+/*******************
+ CUSTOM TEXT
+*******************/
+
+.underline {
+    text-decoration: underline 5px #fcba03;
+}
+
+a, a:visited, .colored {
+    color: #fcba03;
+}
+
+.icon {
+    color: white !important;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 2em;
+}
+
+.icon:hover {
+    color: #fcba03 !important;
+}
+
+/*******************
+ SECTIONS
+*******************/
+
+.name {
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+.title {
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+.subtitle {
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+.description {
+    font-size: 15px;
+    color: gray;
+    margin-top: -15px;
+    margin-left: 25px;
+}
+
+.scroll {
+    background-color: #333;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 350px;
+    border-radius: 7px;
+    overflow-x: auto;
+    display: flex;
+}
+
+.card {
+    background-color: #222;
+    width: 240px;
+    height: 300px;
+    min-width: 240px;
+    min-height: 300px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 7px;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.49); 
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.49);
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: all .3s cubic-bezier(.175,.885,.32,1.275);
+    padding: 0 5px;
+    text-align: center;
+}
+
+.card img {
+    padding-top: 25px;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    background: #fcba03;
+    width: 80px;
+    top: 5px;
+    left: 5px;
+    height: 5px;
+    transition: all .3s cubic-bezier(.175,.885,.32,1.275);
+    border-radius: 7px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: all .3s cubic-bezier(.175,.885,.32,1.275);
+}
+
+.card:hover::before {
+    width: 100px;
+}
+
+.card:first-child {
+    margin-left: 10px;
+}
+
+.downloads {
+    margin: 2px;
+    float: right;
+    color: lightgray;
+    position: absolute;
+    right: 0;
+}
+
+.contacts {
+    margin-left: 25px;
+}
+
+footer, section {
+    background-color: #1f1f1f;
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-right: -7px;
+}
+
+/*******************
+ ELEMENTS
+*******************/
+
+.blob {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 500px;
+}
