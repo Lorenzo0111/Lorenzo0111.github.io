@@ -26,6 +26,21 @@
 
     }
 
+    const response = await fetch("/assets/json/teams.json");
+    const teams = await response.json();
+
+    for (const team of teams) {
+        const html = `
+        <div class="card" href="${team.link}">
+            <img style="padding-top: 15px;" width="105" src="assets/images/${team.image}" alt="${team.name}" draggable="false">
+            <h2>${team.name}</h2>
+            <p>${team.description}</p>
+        </div>
+        `;
+
+        $("#teams").append(html);
+    }
+
     $("div[href]").click(function() {
         window.location = $(this).attr("href");
     });

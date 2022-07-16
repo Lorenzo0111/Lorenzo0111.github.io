@@ -1,0 +1,20 @@
+[
+    {
+        "name": "RocketPlugins",
+        "image": "rocketplugins.png",
+        "description": "RocketPlugins is a freelancing team ready to empower your service or activity with our best custom products made for you and your necessities.",
+        "link": "https://discord.gg/rocketplugins"
+    },
+    {
+        "name": "Orbital Studios",
+        "image": "orbital.png",
+        "description": "Orbital Studios strives to provide their clients with the best customer experience and a space for upcoming freelancers to build a good reputation.",
+        "link": "https://discord.orbitalstudios.net/"
+    },
+    {
+        "name": "Candor Services",
+        "image": "candor.png",
+        "description": "Candor Services is a service team providing clients with stunning work while creating a stress-free process.",
+        "link": "https://discord.gg/Js8g3ws"
+    }
+]
