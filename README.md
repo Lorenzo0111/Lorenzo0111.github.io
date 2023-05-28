@@ -1,3 +1,3 @@
 # Lorenzo0111.github.io
 
-This is my website.
+Old portfolio source code. New one: https://github.com/Lorenzo0111/Portfolio
